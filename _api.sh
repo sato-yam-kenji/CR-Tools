@@ -8,5 +8,4 @@ shift
 shift
 opts=$*
 
-echo curl $baseUrl/api/$cmd -X POST -H "x-care-auth-token:$token" $opts
 curl $baseUrl/api/$cmd -X POST -H "x-care-auth-token:$token" $opts
