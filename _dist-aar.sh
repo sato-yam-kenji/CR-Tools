@@ -12,5 +12,6 @@ CR10AAR="$bDIR/CareRepo/app/libs/carerepo-lib-debug.aar"
 /bin/cp -pf $AAR $CR7AAR
 /bin/cp -pf $AAR $CR10AAR
 
-/bin/ls -lt $AAR $CR7AAR $CR10AAR
-
+/bin/ls -lt $AAR
+diff $AAR $CR7AAR
+diff $AAR $CR10AAR
