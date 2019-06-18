@@ -1,6 +1,6 @@
 #!/bin/bash
 
-baseUrl=http://ec2-18-209-167-12.compute-1.amazonaws.com
+baseUrl=http://54.159.158.30
 
 cmd=$1
 token=$2
